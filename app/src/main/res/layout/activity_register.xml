@@ -48,12 +48,13 @@
             android:text="@string/sign_up"/>
 
         <TextView
-            android:id="@+id/tv_sign_up"
+            android:id="@+id/tv_sign_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/sign_in_text"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:onClick="goLoginAct"/>
 
     </LinearLayout>
 
